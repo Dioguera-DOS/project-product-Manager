@@ -43,8 +43,7 @@ export class ProductoManager {
             stock
         }
         this.products.push(newProduct)
-        fs.writeFileSync(this.path, JSON.stringify(this.products, null, 5)) 
-        
+        fs.writeFileSync(this.path, JSON.stringify(this.products, null, 5))        
     
         
     }

@@ -13,18 +13,18 @@ app.get('/',  (req, res) => {
     res.send('<h1 style="color:red">Wolcome to products page!!!</h1>');
  })
 
- app.get('/productos', async (req, res) => {
+ app.get('/productos', (req, res) => {
    let resultado = usuarios   
    if(req.query.limit === '') {      
       res.send(usuarios)
    } else {
-      let result = await resultado.slice(0, req.query.limit)
+      let result = resultado.slice(0, req.query.limit)
       res.send(result);
    }})
    
- app.get('/productos/:pid', async (req, res) => {
+ app.get('/productos/:pid', (req, res) => {
    let pid = req.params.pid
-   let productList = await usuarios.find(u => u.id == pid);   
+   let productList =  usuarios.find(u => u.id == pid);   
    if(!productList) return res.send({error: "Usuario não encontrado!"})
     res.send({productList})
 })
