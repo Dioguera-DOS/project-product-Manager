@@ -1,0 +1,92 @@
+[
+     {
+          "id": 1,
+          "title": "producto prueba 1",
+          "description": "Este es un producto prueba",
+          "price": 200,
+          "thumbnail": "Sin imagen",
+          "code": "abc123",
+          "stock": 25
+     },
+     {
+          "id": 2,
+          "title": "producto prueba 2",
+          "description": "Este es un producto prueba",
+          "price": 20,
+          "thumbnail": "Sin imagen",
+          "code": "45453",
+          "stock": 15
+     },
+     {
+          "id": 3,
+          "title": "producto prueba 3",
+          "description": "Este es un producto prueba",
+          "price": 100,
+          "thumbnail": "Sin imagen",
+          "code": "999",
+          "stock": 90
+     },
+     {
+          "id": 4,
+          "title": "producto prueba 4",
+          "description": "Este es un producto prueba",
+          "price": 99,
+          "thumbnail": "Sin imagen",
+          "code": "666",
+          "stock": 30
+     },
+     {
+          "id": 5,
+          "title": "producto prueba 5",
+          "description": "Este es un producto prueba",
+          "price": 50,
+          "thumbnail": "Sin imagen",
+          "code": "BC15",
+          "stock": 5
+     },
+     {
+          "id": 6,
+          "title": "producto prueba 7",
+          "description": "Este es un producto prueba",
+          "price": 69,
+          "thumbnail": "Sin imagen",
+          "code": "5826",
+          "stock": 5
+     },
+     {
+          "id": 7,
+          "title": "producto prueba 8",
+          "description": "Este es un producto prueba",
+          "price": 80,
+          "thumbnail": "Sin imagen",
+          "code": "swee",
+          "stock": 5
+     },
+     {
+          "id": 8,
+          "title": "producto prueba 9",
+          "description": "Este es un producto prueba",
+          "price": 225,
+          "thumbnail": "Sin imagen",
+          "code": "365",
+          "stock": 5
+     },
+     {
+          "id": 9,
+          "title": "producto prueba 10",
+          "description": "Este es un producto prueba",
+          "price": 200,
+          "thumbnail": "Sin imagen",
+          "code": "852",
+          "stock": 5
+     },
+     {
+          "id": 10,
+          "title": "producto prueba 11",
+          "description": "Este es un producto prueba",
+          "price": 150,
+          "thumbnail": "Sin imagen",
+          "code": "9874",
+          "stock": 5
+     }
+]
