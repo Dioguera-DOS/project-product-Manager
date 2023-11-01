@@ -49,7 +49,6 @@ export class ProductoManager {
     }
     //return products
     getProducts() {
-        //return this.products
          if(fs.existsSync(this.path)){            
             return JSON.parse(fs.readFileSync(this.path, "utf-8"))
         }else{
@@ -98,7 +97,7 @@ export class ProductoManager {
     }
 }
 
-//let prod = new ProductoManager("./src/archivo.json")
+// let prod = new ProductoManager("./src/archivo.json")
 // prod.addProduct("producto prueba 1", "Este es un producto prueba", 200, 'Sin imagen', "abc123", 25)
 // prod.addProduct("producto prueba 2", "Este es un producto prueba", 20, 'Sin imagen', "45453", 15)
 // prod.addProduct("producto prueba 3", "Este es un producto prueba", 100, 'Sin imagen', "999", 90)
@@ -109,8 +108,7 @@ export class ProductoManager {
 // prod.addProduct("producto prueba 9", "Este es un producto prueba", 225, 'Sin imagen', "365", 5)
 // prod.addProduct("producto prueba 10", "Este es un producto prueba", 200, 'Sin imagen', "852", 5)
 // prod.addProduct("producto prueba 11", "Este es un producto prueba", 150, 'Sin imagen', "9874", 5)
-//console.log(prod.getProducts())
-
+// console.log(prod.getProducts())
 
 
 

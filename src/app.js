@@ -14,19 +14,24 @@ app.get('/',  (req, res) => {
  })
 
  app.get('/productos', (req, res) => {
-   let resultado = usuarios   
-   if(req.query.limit === '') {      
-      res.send(usuarios)
-   } else {
-      let result = resultado.slice(0, req.query.limit)
-      res.send(result);
-   }})
+   productos.getProducts()
+   let resultado = usuarios
+      if(req.query.limit === '') {
+         //res.setHeader('Content-type', 'aplication-json')
+         res.status(200).json({filtros: req.query, resultado})
+      //res.send(usuarios)
+   }
+   let result = resultado.slice(0, req.query.limit)
+   res.send(result);
+
+   })
    
  app.get('/productos/:pid', (req, res) => {
    let pid = req.params.pid
    let productList =  usuarios.find(u => u.id == pid);   
    if(!productList) return res.send({error: "Usuario não encontrado!"})
-    res.send({productList})
+   
+   res.send({productList})
 })
 app.listen(PORT, () => console.log('Server on-line, port 8080!!'))
 
